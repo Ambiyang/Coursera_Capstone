@@ -3,14 +3,14 @@
 mind.
 
 <div align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/naruto.jpg" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/naruto.jpg" width = 600 />
 </div>
 
 　　Japan has become one of the most popular countries in the world by its high quality industrial products and its unique culture.In the year 2019,the total foreign travelers 
 in Japan is about 32 million.Under this background,I want to make some information for all the people who are interested in Japan by grouping several Japanese major cities into 
 different types.Hope this project will help when you want to make commercial recommends about traveling or selecting a favorite place to live in Japan.
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/どうぶつの森.jpg" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/どうぶつの森.jpg" width = 600 />
 </div>
 
 
@@ -33,7 +33,7 @@ As for other features such as latitude,longitude are less important for Japan do
 2. At first I used the default parameter of radius with 500,which did good in previous lab assignments.However,after several tries,I found that many cities are clustered into wrong groups,after analysis I realized radius with 500 is too small and the coordinates got by API doesn't return the central position of a city.So many cities lost their important information,in order to avoid this I expanded the radius to 5000 and finally got a better result.
 3. The catogory feature is a text information which can't be used directly for machine learning,in order to make it useful,I used one-hot encode to deal with it.Then use pandas group function to get the final averaged grouped data.
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/grouped_data.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/grouped_data.png" width = 600 />
 </div>
 
 4. Since the problem is to cluster the cities,with good features K-Means can manage it so I chosed it.
@@ -41,20 +41,20 @@ As for other features such as latitude,longitude are less important for Japan do
 ### 4.Result
 1. I used features abstracted by previous steps,what I got is not a satisfying result.I got apparently cities with historic cities and other cities clustered into the same group.And got 2 groups which I failed to tell the difference between them.What's more Tokyo and Kyoto are grouped as the same with some rural cities.It's unacceptable.
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/wrong_group.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/wrong_group.png" width = 600 />
 </div>
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/result_1.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/result_1.png" width = 600 />
 </div>
 2. After analysis I found the features I got are not good.I just abstracted the features using a query which will retrive all the places can be found in the database without 
 any other considerations.For example,when comparing a traveling city and a industrial city,of course both will have reataurants and convenience stores and hotels,the 
 difference is a traveling city will have more popularity on tour spots.So to get better features,I have to consider this,and use section=topPicks keyord which will 
 retrive a mix of recommendations and sortByPopularity keyword to sort the results by popularity.After doing in this way,I got a relatively acceptable result.
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/right_group.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/right_group.png" width = 600 />
 </div>
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/result_2.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/result_2.png" width = 600 />
 </div>
 
 ### 5.Discussion
