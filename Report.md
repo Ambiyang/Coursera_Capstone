@@ -27,7 +27,7 @@ instead of scraping.Then by using API I can get the coordinates and explore them
 1. Visualise the data features and think the feature catogory is a good one to cluster cities as it contains the recommendation info and may indicate what kind of place this city is.
 As for other features such as latitude,longitude are less important for Japan doesn't have an extreme development unbalance among different parts.So I just dropped them.
 <div  align="center">    
-<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/nagoya_data.png" width = 600 />
+<img src="https://github.com/Ambiyang/Coursera_Capstone/blob/main/image/nagoya_data.png" width = 600 />
 </div>
 
 2. At first I used the default parameter of radius with 500,which did good in previous lab assignments.However,after several tries,I found that many cities are clustered into wrong groups,after analysis I realized radius with 500 is too small and the coordinates got by API doesn't return the central position of a city.So many cities lost their important information,in order to avoid this I expanded the radius to 5000 and finally got a better result.
