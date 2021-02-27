@@ -17,4 +17,4 @@ different types.Hope this project will help when you want to make commercial rec
 ### 2. A description of the data and how it will be used to solve the problem.
 There are 47 prefectures in Japan.I plan to take their 47 capital cities out and explore their common and difference.Since it's not a big deal I will just list them out 
 instead of scraping.Then by using API I can get the cordinates and explore them to get their recommended venues.I noticed query using explore without any other keyword limits,
-it will have a bad effect on the result,so i will try other ways to retrive the result to get better features.At last,I will use K-Means to figure out if the cities are more like or different from each other.
+it will have a bad effect on the result,so I will also try other keywords to retrive the result to get better features.At last,I will use K-Means to figure out if the cities are more like or different from each other and compare which of the two different methods is better.
