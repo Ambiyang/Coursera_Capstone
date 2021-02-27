@@ -56,5 +56,4 @@ information is important.In this project,all the features share the same weight,
 　　Through this work, I realised that there are so many information can be used to make wonderful things,maybe someday I will try to make a new product using the knowledge I learnt in this course.
 Perhaps you think these information doesn't tell important things,for you knew it by common sense.That may be true,but it deponds.Before taking this course I thought in that way,but 
 as I learning I found it not true.It only depends on how you use there information.  
-Thus,while studying new technology being a creative person is the same important for skills can be got if you work hard but ideas not.Remeber that try to use data to solve 
-problem is a start.If you just learnt this course and don't think in a data scientist way,you learnt nothing.That's not what we want to see.So,maybe try to change our mind is more important.
+　　Thus,while studying new technology being a creative person is the same important for skills can be got if you work hard but ideas not.Remeber that trying to use data to solve problem is a start.If you just learnt this course and don't think in a data scientist way,you learnt nothing.That's not what we want to see.So,maybe try to change our mind is the same important.
