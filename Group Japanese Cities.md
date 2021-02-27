@@ -8,7 +8,7 @@ mind.
 
 　　Japan has become one of the most popular countries in the world by its high quality industrial products and its unique culture.In the year 2019,the total foreign travelers 
 in Japan is about 32 million.Under this background,I want to make some information for all the people who are interested in Japan by grouping several Japanese major cities into 
-different types.Hope this project will help the people who are living in Japan or planing to visit Japan in the future.
+different types.Hope this project will help when you want to make commercial recommends about traveling or select a place to live in Japan.
 <div  align="center">    
 <img src="どうぶつの森.jpg" width = 600 />
 </div>
