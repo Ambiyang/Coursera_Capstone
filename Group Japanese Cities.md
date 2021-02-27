@@ -3,14 +3,14 @@
 mind.
 
 <div align="center">    
-<img src="naruto.jpg" width = 600 />
+<img src="image/naruto.jpg" width = 600 />
 </div>
 
 　　Japan has become one of the most popular countries in the world by its high quality industrial products and its unique culture.In the year 2019,the total foreign travelers 
 in Japan is about 32 million.Under this background,I want to make some information for all the people who are interested in Japan by grouping several Japanese major cities into 
 different types.Hope this project will help when you want to make commercial recommends about traveling or selecting a favorite place to live in Japan.
 <div  align="center">    
-<img src="どうぶつの森.jpg" width = 600 />
+<img src="image/どうぶつの森.jpg" width = 600 />
 </div>
 
 
